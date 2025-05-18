@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/typography.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.webp">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.webp">
+    
+    <link rel="shortcut icon" href="/assets/favicon.ico">
+
+    <meta name="theme-color" content="#EDF2F4">
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="UnionMC - nové dobrodružství, které právě začíná!">
+    <meta name="description" content="UnionMC - zbrusu nový Minecraft server založený na vzájemné podpoře, přátelství a objevování neprozkoumaných zákoutí virtuálního světa!">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://unionmc.stvr.cz">
+    <meta property="og:title" content="UnionMC - nové dobrodružství, které právě začíná!">
+    <meta property="og:description" content="UnionMC - zbrusu nový Minecraft server založený na vzájemné podpoře, přátelství a objevování neprozkoumaných zákoutí virtuálního světa!">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://unionmc.stvr.cz">
+    <meta property="twitter:title" content="UnionMC - nové dobrodružství, které právě začíná!">
+    <meta property="twitter:description" content="UnionMC - zbrusu nový Minecraft server založený na vzájemné podpoře, přátelství a objevování neprozkoumaných zákoutí virtuálního světa!">
+
+    <!-- hamburger menu -->
+    <script src="/js/hamburger.js"></script>
+
+    <title>UnionMC | Kontakt</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="hamburger__nav">
+            <menu class="hamburger__links__nav">
+                <li><a href="/">Domů</a></li>
+                <li><a href="/jak-se-pripojit/">Jak se připojit?</a></li>
+                <li><a href="/pravidla/">Pravidla</a></li>
+                <li><a href="/adminteam/">AdminTeam</a></li>
+                <li><a href="/galerie/">Galerie</a></li>
+                <li><a href="/faq/">FAQ</a></li>
+                <li><a href="/kontakt/">Kontakt</a></li>
+            </menu>
+        </nav>
+
+        <header class="body__header">
+            <div class="header__logo logo">
+                <img src="/assets/union.svg" alt="UnionMC logo" height="28">
+                <a href="/">Union<span>MC</span></a>
+            </div>
+
+            <div id="hamburger" role="button" class="header__hamburger">
+                <span class="bar1"></span>
+                <span class="bar2"></span>
+                <span class="bar3"></span>
+            </div>
+
+            <menu class="header__navigation">
+                <li class="header__link"><a href="/">Domů</a></li>
+                <li class="header__link"><a href="/jak-se-pripojit/">Jak se připojit?</a></li>
+                <li class="header__link"><a href="/pravidla/">Pravidla</a></li>
+                <li class="header__link"><a href="/adminteam/">AdminTeam</a></li>
+                <li class="header__link"><a href="/galerie/">Galerie</a></li>
+                <li class="header__link"><a href="/faq/">FAQ</a></li>
+                <li class="header__link header__link--active"><a href="/kontakt/">Kontakt</a></li>
+            </menu>
+        </header>
+
+        <div class="body__main">
+            <div class="main__text-section">
+                <h1 class="main__text-section__heading center">Kontakt</h1>
+                <div class="section">
+                    <h3>Podpora</h3>
+                    <p>Kontaktovat nás můžete na <a href=mailto:steveruuuu@gmail.com>support@unionmc.cz</a></p>
+                    <p>Před kontaktováním podpory doporučujeme navštívit záložku FAQ</p>
+                </div>
+                <div class="section">
+                    <h3>Další způsoby kontaktování</h3>
+                    <p>Instagram: <a href="#">@unionmc.cz</a></p>
+                    <p>Discord: <a href="#">zde</a></p>
+                </div>
+                <div class="section">
+                    <iframe class="contact__gmaps-embed" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d771.8668416481399!2d15.05032032228285!3d50.76433360387378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4709369bc5032c81%3A0x27e7a7d582e5b589!2zMS4gbcOhamUgOTcvMjUsIDQ2MCAwNyBMaWJlcmVjLUplxZnDoWI!5e0!3m2!1scs!2scz!4v1711095571276!5m2!1scs!2scz" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p>Sídlo: <b>1. máje 97/25</b>, Liberec</p>
+                </div>
+                <form class="section contact-form">
+                    <h3>Chcete nám něco sdělit?</h3>
+                    <input type="text" class="contact-form contact-form__input" placeholder="Jméno a příjmení" id="name" name="name" required>
+                    <input type="email" class="contact-form__input" placeholder="Vaše e-mailová adresa" id="email" name="email" required>
+                    <textarea class="contact-form__input" placeholder="Co nám chcete sdělit?" id="message" name="message" required></textarea>
+                    <div class="contact-form__flex">
+                        <div class="contact-form__send">
+                            <input type="checkbox" name="checkbox" class="contact-form__checkbox" required>
+                        <label>
+                            Souhlasím se sdílením e-mailu s UnionMC.
+                        </label>
+                        </div>
+                        <button class="contact-form__button" type="submit">Odeslat</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <footer class="body__footer">
+            <h3 class="footer__header">Odkazy</h3>
+            <div class="footer__links">
+                <menu class="footer__links__nav">
+                    <li><a href="/jak-se-pripojit/"><span class="icon icon--origin-down">ja</span>Jak se připojit?</a></li>
+                    <li><a href="/pravidla/"><span class="icon">pr</span>Pravidla</a></li>
+                    <li><a href="/adminteam/"><span class="icon">ad</span>AdminTeam</a></li>
+                    <li><a href="/faq/"><span class="icon icon--origin-down">fa</span>FAQ</a></li>
+                    <li><a href="/kontakt/"><span class="icon">ko</span>Kontakt</a></li>
+                </menu>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
