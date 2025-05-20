@@ -4,7 +4,8 @@
     "gh-pages": "^6.3.0"
   },
   "dependencies": {
-    "vite": "^6.3.5"
+    "vite": "^6.3.5",
+    "vituum": "^1.2.0"
   },
   "scripts": {
     "dev": "vite"

@@ -6,43 +6,39 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/typography.css">
-    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/src/styles/main.css">
+    <link rel="stylesheet" href="/src/styles/typography.css">
+    <link rel="stylesheet" href="/src/styles/normalize.css">
 
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/logo-vk-dukla-liberec-900x583.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/logo-vk-dukla-liberec-900x583.png">
-    <link rel="shortcut icon" href="/assets/logo-vk-dukla-liberec-900x583.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/logo-vk-dukla-liberec-900x583.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/logo-vk-dukla-liberec-900x583.png">
+    <link rel="shortcut icon" href="/images/logo-vk-dukla-liberec-900x583.png">
 
     <meta name="theme-color" content="#F1C40F"> 
-
-    <!-- Primary Meta Tags -->
     <meta name="title" content="Volejbalový klub Liberec - Síla, vášeň a sportovní týmová práce!">
     <meta name="description" content="Volejbalový klub Liberec - Oficiální web našeho volejbalového klubu, kde najdete novinky, zápasy a všechno o našem týmu.">
-    
-    <!-- hamburger menu -->
-    <script src="/js/hamburger.js"></script>
 
-    <title>Dukla | Historie</title>
+    <script src="/src/scripts/hamburger.js"></script>
+
+    <title>Dukla | Galerie</title>
 </head>
 <body>
     <div class="container">
         <nav class="hamburger__nav">
             <menu class="hamburger__links__nav">
-                <li><a href="/index.html">Domů</a></li>
-                <li><a href="/novinky/">Novinky</a></li>
-                <li><a href="/historie/">Historie</a></li>
-                <li><a href="/tymy/">Týmy</a></li>
-                <li><a href="/souteze/">Soutěže</a></li>
-                <li><a href="/galerie/">Galerie</a></li>
+                <li><a href="index.html">Domů</a></li>
+                <li><a href="novinky.html">Novinky</a></li>
+                <li><a href="historie.html">Historie</a></li>
+                <li><a href="tymy.html">Týmy</a></li>
+                <li><a href="souteze.html">Soutěže</a></li>
+                <li><a href="galerie.html">Galerie</a></li>
             </menu>
         </nav>
 
         <header class="body__header">
             <div class="header__logo logo">
-                <img src="/assets/logo-vk-dukla-liberec-900x583.png" alt="Dukla Liberec logo" height="28">
-                <a href="/">Dukla<span>Liberec</span></a>
+                <img src="/images/logo-vk-dukla-liberec-900x583.png" alt="Dukla Liberec logo" height="28">
+                <a href="index.html">Dukla<span>Liberec</span></a>
             </div>
 
             <div id="hamburger" role="button" class="header__hamburger">
@@ -52,115 +48,105 @@
             </div>
 
             <menu class="header__navigation">
-                <li class="header__link header__link--active"><a href="/index.html">Domů</a></li>
-                <li class="header__link"><a href="/novinky/">Novinky</a></li>
-                <li class="header__link"><a href="/historie/">Historie</a></li>
-                <li class="header__link"><a href="/tymy/">Týmy</a></li>
-                <li class="header__link"><a href="/souteze/">Soutěže</a></li>
-                <li class="header__link"><a href="/galerie/">Galerie</a></li>
+                <li class="header__link"><a href="index.html">Domů</a></li>
+                <li class="header__link"><a href="novinky.html">Novinky</a></li>
+                <li class="header__link"><a href="historie.html">Historie</a></li>
+                <li class="header__link"><a href="tymy.html">Týmy</a></li>
+                <li class="header__link"><a href="souteze.html">Soutěže</a></li>
+                <li class="header__link header__link--active"><a href="galerie.html">Galerie</a></li>
             </menu>
         </header>
 
+        <main class="body__main">
+            <div class="gallery-contact-wrapper">
+                <!-- GALERIE -->
+                <section class="gallery">
+                    <h1>Galerie</h1>
+                    <div class="gallery__grid">
+                        <div class="gallery__item">
+                            <img src="/images/galerie/duklavsolymp.png" alt="Zápas Dukla Liberec" />
+                            <div class="gallery__desc">
+                                <p>EX-Z O 3. MÍSTO<br>17.4.2025</p>
+                                <strong>VK Dukla Liberec - PVK Olymp Praha</strong>
+                            </div>
+                        </div>
 
+                        <div class="gallery__item">
+                            <img src="/images/galerie/olomoucvsdukla.png" alt="Zápas Dukla Liberec" />
+                            <div class="gallery__desc">
+                                <p>EX-Z O 3. MÍSTO<br>17.4.2025</p>
+                                <strong>VK Dukla Liberec - PVK Olymp Praha</strong>
+                            </div>
+                        </div>
 
+                        <div class="gallery__item">
+                            <img src="/images/galerie/Snímek obrazovky 2025-04-21 112549.png" alt="Zápas Dukla Liberec" />
+                            <div class="gallery__desc">
+                                <p>EX-Z O 3. MÍSTO<br>17.4.2025</p>
+                                <strong>VK Dukla Liberec - PVK Olymp Praha</strong>
+                            </div>
+                        </div>
 
+                        <div class="gallery__item">
+                            <img src="/images/galerie/Snímek obrazovky 2025-04-21 112555.png" alt="Zápas Dukla Liberec" />
+                            <div class="gallery__desc">
+                                <p>EX-Z O 3. MÍSTO<br>17.4.2025</p>
+                                <strong>VK Dukla Liberec - PVK Olymp Praha</strong>
+                            </div>
+                        </div>
 
-    <!-- HLAVNÍ OBSAH -->
-    <main class="body__main">
-      <div class="gallery-contact-wrapper">
-        <!-- GALERIE -->
-        <section class="gallery">
-          <h1>Galerie</h1>
-          <div class="gallery__grid">
-            <div class="gallery__item">
-              <img src="/assets/images/galerie/duklavsolymp.png" alt="Zápas Dukla Liberec" />
-              <div class="gallery__desc">
-                <p>EX-Z O 3. MÍSTO<br>17.4.2025</p>
-                <strong>VK Dukla Liberec - PVK Olymp Praha</strong>
-              </div>
+                        <div class="gallery__item">
+                            <img src="/images/galerie/Snímek obrazovky 2025-04-21 113036.png" alt="Zápas Dukla Liberec" />
+                            <div class="gallery__desc">
+                                <p>EX-Z O 3. MÍSTO<br>17.4.2025</p>
+                                <strong>VK Dukla Liberec - PVK Olymp Praha</strong>
+                            </div>
+                        </div>
+
+                        <div class="gallery__item">
+                            <img src="/images/galerie/Snímek obrazovky 2025-04-21 113044.png" alt="Zápas Dukla Liberec" />
+                            <div class="gallery__desc">
+                                <p>EX-Z O 3. MÍSTO<br>17.4.2025</p>
+                                <strong>VK Dukla Liberec - PVK Olymp Praha</strong>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- FORMULÁŘ -->
+                <aside class="contact-form">
+                    <h2>Máte zájem o focení nebo spolupráci?<br>Dejte o sobě vědět!</h2>
+                    <form>
+                        <label for="name">Celé jméno</label>
+                        <input type="text" id="name" name="name" required />
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required />
+
+                        <label for="phone">Telefon</label>
+                        <input type="tel" id="phone" name="phone" />
+
+                        <label for="message">Zpráva</label>
+                        <textarea id="message" name="message" rows="4"></textarea>
+
+                        <button type="submit">Odeslat</button>
+                    </form>
+                </aside>
             </div>
+        </main>
 
-            <div class="gallery__item">
-              <img src="/assets/images/galerie/olomoucvsdukla.png" alt="Zápas Dukla Liberec" />
-              <div class="gallery__desc">
-                <p>EX-Z O 3. MÍSTO<br>17.4.2025</p>
-                <strong>VK Dukla Liberec - PVK Olymp Praha</strong>
-              </div>
-            </div>
-
-            <div class="gallery__item">
-              <img src="/assets/images/galerie/Snímek obrazovky 2025-04-21 112549.png" alt="Zápas Dukla Liberec" />
-              <div class="gallery__desc">
-                <p>EX-Z O 3. MÍSTO<br>17.4.2025</p>
-                <strong>VK Dukla Liberec - PVK Olymp Praha</strong>
-              </div>
-            </div>
-
-            <div class="gallery__item">
-              <img src="/assets/images/galerie/Snímek obrazovky 2025-04-21 112555.png" alt="Zápas Dukla Liberec" />
-              <div class="gallery__desc">
-                <p>EX-Z O 3. MÍSTO<br>17.4.2025</p>
-                <strong>VK Dukla Liberec - PVK Olymp Praha</strong>
-              </div>
-            </div>
-
-            <div class="gallery__item">
-              <img src="/assets/images/galerie/Snímek obrazovky 2025-04-21 113036.png" alt="Zápas Dukla Liberec" />
-              <div class="gallery__desc">
-                <p>EX-Z O 3. MÍSTO<br>17.4.2025</p>
-                <strong>VK Dukla Liberec - PVK Olymp Praha</strong>
-              </div>
-            </div>
-
-            <div class="gallery__item">
-              <img src="/assets/images/galerie/Snímek obrazovky 2025-04-21 113044.png" alt="Zápas Dukla Liberec" />
-              <div class="gallery__desc">
-                <p>EX-Z O 3. MÍSTO<br>17.4.2025</p>
-                <strong>VK Dukla Liberec - PVK Olymp Praha</strong>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- FORMULÁŘ -->
-        <aside class="contact-form">
-          <h2>Máte zájem o focení nebo spolupráci?<br>Dejte o sobě vědět!</h2>
-          <form>
-            <label for="name">Celé jméno</label>
-            <input type="text" id="name" name="name" required />
-
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required />
-
-            <label for="phone">Telefon</label>
-            <input type="tel" id="phone" name="phone" />
-
-            <label for="message">Zpráva</label>
-            <textarea id="message" name="message" rows="4"></textarea>
-
-            <button type="submit">Odeslat</button>
-          </form>
-        </aside>
-      </div>
-    </main>
-
-        
-
-  <footer class="body__footer">
+        <footer class="body__footer">
             <h3 class="footer__header">Odkazy</h3>
             <div class="footer__links">
                 <menu class="footer__links__nav">
-                    <li><a href="/novinky/"><i class="fa-solid fa-newspaper"></i> Novinky</a></li>
-                    <li><a href="/historie/"><i class="fa-solid fa-circle-info"></i> Historie</a></li>
-                    <li><a href="/tymy/"><i class="fa-solid fa-people-group"></i> Týmy</a></li>
-                    <li><a href="/souteze/"><i class="fa-solid fa-trophy"></i> Soutěže</a></li>
-                    <li><a href="/galerie/"><i class="fa-solid fa-image"></i> Galerie</a></li>
+                    <li><a href="novinky.html"><i class="fa-solid fa-newspaper"></i> Novinky</a></li>
+                    <li><a href="historie.html"><i class="fa-solid fa-circle-info"></i> Historie</a></li>
+                    <li><a href="tymy.html"><i class="fa-solid fa-people-group"></i> Týmy</a></li>
+                    <li><a href="souteze.html"><i class="fa-solid fa-trophy"></i> Soutěže</a></li>
+                    <li><a href="galerie.html"><i class="fa-solid fa-image"></i> Galerie</a></li>
                 </menu>
             </div>
         </footer>
     </div>
 </body>
 </html>
-
-
-
