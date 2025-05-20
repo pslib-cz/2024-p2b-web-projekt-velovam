@@ -24,7 +24,7 @@
     <!-- hamburger menu -->
     <script src="/js/hamburger.js"></script>
 
-    <title>Dukla | Domů </title>
+    <title>Dukla | Historie</title>
 </head>
 <body>
     <div class="container">
@@ -52,7 +52,7 @@
             </div>
 
             <menu class="header__navigation">
-                <li class="header__link header__link--active"><a href="/">Domů</a></li>
+                <li class="header__link header__link--active"><a href="/index.html">Domů</a></li>
                 <li class="header__link"><a href="/novinky/">Novinky</a></li>
                 <li class="header__link"><a href="/historie/">Historie</a></li>
                 <li class="header__link"><a href="/tymy/">Týmy</a></li>
@@ -61,21 +61,92 @@
             </menu>
         </header>
 
-        <div class="body__main">
-            <div class="main__hero">
-                <h2>DUKLA<span>LIBEREC</span></h2>
-                <p class="hero__description center">Hrdí na své úspěchy!</p>
+
+
+
+
+    <!-- HLAVNÍ OBSAH -->
+    <main class="body__main">
+      <div class="gallery-contact-wrapper">
+        <!-- GALERIE -->
+        <section class="gallery">
+          <h1>Galerie</h1>
+          <div class="gallery__grid">
+            <div class="gallery__item">
+              <img src="/assets/images/galerie/duklavsolymp.png" alt="Zápas Dukla Liberec" />
+              <div class="gallery__desc">
+                <p>EX-Z O 3. MÍSTO<br>17.4.2025</p>
+                <strong>VK Dukla Liberec - PVK Olymp Praha</strong>
+              </div>
             </div>
 
-            <section class="main__text-section">
-                <h1 class="main__text-section__heading center">O nás</h1>
-                <p> Jsme přední český volejbalový klub s bohatou tradicí a řadou úspěchů na domácí i mezinárodní scéně.
-                    Věříme v tvrdou práci, týmového ducha a profesionální přístup, díky kterému se dlouhodobě držíme na špičce českého volejbalu.
-                     VK Dukla Liberec je pro nás víc než jen klub – je to místo, kde spojujeme vášeň pro volejbal s cílem dosahovat těch nejvyšších met.</p>
-            </section>
-        </div>
+            <div class="gallery__item">
+              <img src="/assets/images/galerie/olomoucvsdukla.png" alt="Zápas Dukla Liberec" />
+              <div class="gallery__desc">
+                <p>EX-Z O 3. MÍSTO<br>17.4.2025</p>
+                <strong>VK Dukla Liberec - PVK Olymp Praha</strong>
+              </div>
+            </div>
 
-        <footer class="body__footer">
+            <div class="gallery__item">
+              <img src="/assets/images/galerie/Snímek obrazovky 2025-04-21 112549.png" alt="Zápas Dukla Liberec" />
+              <div class="gallery__desc">
+                <p>EX-Z O 3. MÍSTO<br>17.4.2025</p>
+                <strong>VK Dukla Liberec - PVK Olymp Praha</strong>
+              </div>
+            </div>
+
+            <div class="gallery__item">
+              <img src="/assets/images/galerie/Snímek obrazovky 2025-04-21 112555.png" alt="Zápas Dukla Liberec" />
+              <div class="gallery__desc">
+                <p>EX-Z O 3. MÍSTO<br>17.4.2025</p>
+                <strong>VK Dukla Liberec - PVK Olymp Praha</strong>
+              </div>
+            </div>
+
+            <div class="gallery__item">
+              <img src="/assets/images/galerie/Snímek obrazovky 2025-04-21 113036.png" alt="Zápas Dukla Liberec" />
+              <div class="gallery__desc">
+                <p>EX-Z O 3. MÍSTO<br>17.4.2025</p>
+                <strong>VK Dukla Liberec - PVK Olymp Praha</strong>
+              </div>
+            </div>
+
+            <div class="gallery__item">
+              <img src="/assets/images/galerie/Snímek obrazovky 2025-04-21 113044.png" alt="Zápas Dukla Liberec" />
+              <div class="gallery__desc">
+                <p>EX-Z O 3. MÍSTO<br>17.4.2025</p>
+                <strong>VK Dukla Liberec - PVK Olymp Praha</strong>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- FORMULÁŘ -->
+        <aside class="contact-form">
+          <h2>Máte zájem o focení nebo spolupráci?<br>Dejte o sobě vědět!</h2>
+          <form>
+            <label for="name">Celé jméno</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="phone">Telefon</label>
+            <input type="tel" id="phone" name="phone" />
+
+            <label for="message">Zpráva</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit">Odeslat</button>
+          </form>
+        </aside>
+      </div>
+    </main>
+
+        
+
+  <footer class="body__footer">
             <h3 class="footer__header">Odkazy</h3>
             <div class="footer__links">
                 <menu class="footer__links__nav">
@@ -90,3 +161,6 @@
     </div>
 </body>
 </html>
+
+
+
