@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "deploy": "vite build --base=/2024-p2b-web-projekt-velovam/ && gh-pages -d dist",
+    "gh-pages": "^6.3.0"
+  },
+  "dependencies": {
+    "vite": "^6.3.5"
+  }
+}
