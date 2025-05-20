@@ -1,13 +1,17 @@
 {
-  "devDependencies": {
-    "deploy": "vite build --base=/2024-p2b-web-projekt-velovam/ && gh-pages -d dist",
-    "gh-pages": "^6.3.0"
+  "name": "2024-p2b-web-projekt-velovam",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "vite build --base=/2024-p2b-web-projekt-velovam/ && gh-pages -d dist -o origin"
   },
-  "dependencies": {
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
     "vite": "^6.3.5",
     "vituum": "^1.2.0"
-  },
-  "scripts": {
-    "dev": "vite"
   }
 }
