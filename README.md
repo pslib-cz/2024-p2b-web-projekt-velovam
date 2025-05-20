@@ -1,11 +1,4 @@
-# Vlastní projekt - web
-- webová stránka pro fiktivní Minecraft server UnionMC
-- web bude obsahovat základní informace o serveru, adminteamu, apod.
-- cílem je přivést hráče na nový, vznikající (rádoby, ve skutečnosti fiktivní) Minecraft server
-- stránky: **Úvod, Jak se připojit, Pravidla, AdminTeam, Galerie, FAQ, Kontakt**
 
-[odkaz na webovou stránku](https://unionmc.stvr.cz) - jiné repo  
-[odkaz na Figma plátno](https://www.figma.com/file/RJhhqVCTzkuvUHoOPhaXEd/Prchal%C5%A0t%C4%9Bp%C3%A1n?type=design&node-id=0%3A1&mode=design&t=4k8zqzx0ID7TCbiK-1)  
 ## Osobní to-do list:
 - [x] základní struktura stránky, souborů
 - [x] hotový, funkční [favicon](https://www.vzhurudolu.cz/prirucka/favicon) - naimportován
