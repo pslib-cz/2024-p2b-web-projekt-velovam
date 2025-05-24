@@ -2,11 +2,19 @@
 
 @font-face {
     font-family: 'icomoon';
+<<<<<<< HEAD
     src:  url('../');
     src:  url('/public/images/fonts/icomoon.eot') format('embedded-opentype'),
       url('/public/images/fonts/icomoon.ttf') format('truetype'),
       url('/public/images/fonts/icomoon.woff') format('woff'),
       url('/public/images/fonts/icomoon.svg') format('svg');
+=======
+    src:  url('../assets/fonts/icomoon.eot?n9qi63');
+    src:  url('../assets/fonts/icomoon.eot?n9qi63#iefix') format('embedded-opentype'),
+      url('../assets/fonts/icomoon.ttf?n9qi63') format('truetype'),
+      url('../assets/fonts/icomoon.woff?n9qi63') format('woff'),
+      url('../assets/fonts/icomoon.svg?n9qi63#icomoon') format('svg');
+>>>>>>> eecf3a48867844aebf409a37b1188eec10c8ba81
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -101,7 +109,10 @@ b {
 
 .header__link {
     font-weight: 500;
+<<<<<<< HEAD
     list-style: none;
+=======
+>>>>>>> eecf3a48867844aebf409a37b1188eec10c8ba81
 }
 
 .main__hero h2 span {

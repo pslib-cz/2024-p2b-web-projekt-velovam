@@ -85,7 +85,10 @@ body {
     justify-content: center;
     align-items: center;
     height: 100%;
+<<<<<<< HEAD
     list-style: none;
+=======
+>>>>>>> eecf3a48867844aebf409a37b1188eec10c8ba81
 }
 
 .hamburger__links__nav li {
@@ -149,7 +152,11 @@ body {
     align-items: center;
     justify-content: center;
 
+<<<<<<< HEAD
     background-image: url("/public/images/zeny_main.png");
+=======
+    background-image: url("/assets/images/zeny_main.png");
+>>>>>>> eecf3a48867844aebf409a37b1188eec10c8ba81
 
     background-position: center;
     background-size: cover;
@@ -219,7 +226,10 @@ body {
     
     text-align: center;
     color: var(--gray);
+<<<<<<< HEAD
     list-style: none;
+=======
+>>>>>>> eecf3a48867844aebf409a37b1188eec10c8ba81
 }
 
 
@@ -621,7 +631,10 @@ body {
         flex-direction: row;
         justify-content: center;
         gap: 4em;
+<<<<<<< HEAD
         list-style: none;
+=======
+>>>>>>> eecf3a48867844aebf409a37b1188eec10c8ba81
     }
 
     .body__main {
@@ -824,7 +837,11 @@ body {
     .gallery__swiper {
       display: none;
     }
+<<<<<<< HEAD
   }
 
 
 
+=======
+  }
+>>>>>>> eecf3a48867844aebf409a37b1188eec10c8ba81
